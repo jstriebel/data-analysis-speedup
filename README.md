@@ -1,8 +1,8 @@
-# Declarative Configs for Maintainable Reproducible Code
+# 5 Steps to Speed Up Your Data-Analysis on a Single Core
 
 <img src="https://2022.pycon.de/static/media/PyConDE_PyDataBer_circle_trans_500.png" width="150" height="150">
 
-Material for my talk at the [PyConDE & PyData Berlin 2022](https://2022.pycon.de/program/VYS8XY/):
+Material for my talk at the [PyConDE & PyData Berlin 2022](https://2022.pycon.de/program/VYS8XY/)
 
 ## Description
 
@@ -19,3 +19,5 @@ We'll go through optimization steps that **boost the performance of your data an
 * Jit-ing using numba
 
 This talk is suited for data scientists on a beginner and intermediate level, typically working with a numpy/scipy/… stack or similar. The talk gives strategies & concrete suggestions how to speed up an existing analysis pipeline, which is demonstrated practically on an example, showing the gained speed & memory improvements of each step.
+
+![](https://2022.pycon.de/static/media/twitter/VYS8XY.png)
