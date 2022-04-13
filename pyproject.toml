@@ -5,15 +5,22 @@ description = "5 Steps to Speed Up Your Data-Analysis on a Single Core"
 authors = ["Jonathan Striebel <jonathan.striebel@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = ">=3.7,<3.11"
 h5py = "^3.6.0"
+ipywidgets = "^7.7.0"
 jupyterlab = "^3.3.2"
 matplotlib = "^3.5.1"
+numba = "^0.55.1"
+py-spy = "^0.3.11"
+yappi = "^1.3.3"
 
 [tool.poetry.dev-dependencies]
 black = "^22.1.0"
-mypy = "^0.942"
+isort = "^5.10.1"
 nbqa = "^1.3.1"
+
+[tool.isort]
+profile = "black"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

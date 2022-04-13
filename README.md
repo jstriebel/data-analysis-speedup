@@ -12,12 +12,27 @@ Do you need to parallelize? ***Not yet.***
 
 We'll go through optimization steps that **boost the performance of your data analysis pipeline on a single core**, reducing time & costs. This walkthrough shows tools and strategies to identify and mitigate bottlenecks, and demonstrate them in an example. The 5 steps cover:
 
-* Identifying bottlenecks: profiling memory, IO & cpu
+* Identifying bottlenecks: Profiling
 * Efficient IO
-* Memory optimizations
-* Vector-optimizations
-* Jit-ing using numba
+* Vectorization
+* Memory & Precision Tradeoffs
+* Jit-ting with numba
 
 This talk is suited for data scientists on a beginner and intermediate level, typically working with a numpy/scipy/… stack or similar. The talk gives strategies & concrete suggestions how to speed up an existing analysis pipeline, which is demonstrated practically on an example, showing the gained speed & memory improvements of each step.
 
 ![](https://2022.pycon.de/static/media/twitter/VYS8XY.png)
+
+
+## Installation & Usage
+
+```bash
+python3 -m pip install poetry
+poetry install
+poetry run python -m jupyterlab
+```
+
+## Dev
+
+```bash
+./format.sh
+```
