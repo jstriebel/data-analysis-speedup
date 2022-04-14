@@ -18,7 +18,7 @@ We'll go through optimization steps that **boost the performance of your data an
 * Memory & Precision Tradeoffs
 * Jit-ting with numba
 
-This talk is suited for data scientists on a beginner and intermediate level, typically working with a numpy/scipy/… stack or similar. The talk gives strategies & concrete suggestions how to speed up an existing analysis pipeline, which is demonstrated practically on an example, showing the gained speed & memory improvements of each step.
+This talk is suited for data scientists on a beginner and intermediate level, typically working with a numpy/scipy/… stack or similar. The talk gives strategies & concrete suggestions how to speed up an existing analysis pipeline, which is demonstrated practically on an example, showing the gained speed improvements of each step.
 
 ![](https://2022.pycon.de/static/media/twitter/VYS8XY.png)
 
